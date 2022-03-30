@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PW3_2022_1C_Clase_1.Entidades;
+using System;
 
 namespace PW3_2022_1C_Clase_1.Consola
 {
@@ -17,10 +18,7 @@ namespace PW3_2022_1C_Clase_1.Consola
             Console.WriteLine("Num 2: ");
             string num2 = Console.ReadLine();
 
-            int int1 = Int32.Parse(num1);
-            int int2 = Convert.ToInt32(num2);
-
-            Console.WriteLine($"{int1} + {int2} = {int1 + int2}");
+            Console.WriteLine($"{num1} + {num2} = {Calculadora.Sumar(num1, num2)}");
             Console.ReadKey();
         }
     }

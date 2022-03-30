@@ -6,4 +6,8 @@
     <RootNamespace>PW3_2022_1C_Clase_1.Consola</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PW3-2022-1C-Clase-1.Entidades\PW3-2022-1C-Clase-1.Entidades.csproj" />
+  </ItemGroup>
+
 </Project>
