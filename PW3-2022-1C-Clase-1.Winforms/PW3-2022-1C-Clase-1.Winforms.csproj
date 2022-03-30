@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>PW3_2022_1C_Clase_1.Winforms</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PW3-2022-1C-Clase-1.Entidades\PW3-2022-1C-Clase-1.Entidades.csproj" />
+  </ItemGroup>
+
+</Project>
